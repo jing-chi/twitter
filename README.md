@@ -19,4 +19,4 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 https://imgur.com/uOSTd2N
-<img src='https://imgur.com/uOSTd2N.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/uOSTd2N' title='Video Walkthrough' width='' alt='Video Walkthrough' />
