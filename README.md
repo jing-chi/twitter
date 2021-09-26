@@ -18,5 +18,5 @@ The following **required** functionality is completed:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-https://imgur.com/a/x7AG1Su
-<img src='https://imgur.com/a/x7AG1Su.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://imgur.com/uOSTd2N
+<img src='https://imgur.com/uOSTd2N.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
