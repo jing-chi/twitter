@@ -1,8 +1,21 @@
+
+# Twitter - Part II
+
+
+## User Stories
+
+The following **required** functionality is completed:
+
+- [x] User can compose a tweet. (4pts)
+- [x] User can favorite a tweet. (4pts)
+- [x] User can retweet a tweet. (2pts)
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+GIF URL:https://imgur.com/emnHxV0
+<img src='https://imgur.com/emnHxV0.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 # Twitter - Part I
-
-This is a basic twitter app to read your tweets.
-
-Time spent: **X** hours spent in total
 
 ## User Stories
 
