@@ -13,8 +13,8 @@ The following **required** functionality is completed:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-GIF URL:https://imgur.com/emnHxV0
-<img src='https://imgur.com/emnHxV0.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+GIF URL:https://imgur.com/Lo0Liws
+<img src='https://imgur.com/Lo0Liws.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 # Twitter - Part I
 
 ## User Stories
