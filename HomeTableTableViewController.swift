@@ -5,7 +5,6 @@
 //  Created by Jing Jing Chi on 9/26/21.
 //  Copyright © 2021 Dan. All rights reserved.
 //
-
 import UIKit
 
 class HomeTableTableViewController: UITableViewController {
@@ -15,16 +14,16 @@ class HomeTableTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       // loadTweets()
         myRefreshControl.addTarget(self, action: #selector(loadTweets), for: .valueChanged)
         tableView.refreshControl = myRefreshControl
         self.tableView.rowHeight = UITableView.automaticDimension
         self.tableView.estimatedRowHeight = 150
+        self.loadTweets()
         
     }
     override func viewDidAppear(_ animated: Bool) {
-            super.viewDidAppear(animated)
-            loadTweets()
+        super.viewDidAppear(animated)
+        self.loadTweets()
         }
     
     
@@ -87,7 +86,6 @@ class HomeTableTableViewController: UITableViewController {
              return cell
          }
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -106,9 +104,7 @@ class HomeTableTableViewController: UITableViewController {
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
         // Configure the cell...
-
         return cell
     }
     */
@@ -129,14 +125,13 @@ class HomeTableTableViewController: UITableViewController {
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+        }
     }
     */
 
     /*
     // Override to support rearranging the table view.
     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
     }
     */
 
@@ -150,7 +145,6 @@ class HomeTableTableViewController: UITableViewController {
 
     /*
     // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
